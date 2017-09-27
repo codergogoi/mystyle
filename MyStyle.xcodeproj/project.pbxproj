@@ -14,6 +14,8 @@
 		9FF22DC81F6E70A0003E7C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF22DC61F6E70A0003E7C1C /* LaunchScreen.storyboard */; };
 		9FF22DD31F6E70A1003E7C1C /* MyStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF22DD21F6E70A1003E7C1C /* MyStyleTests.swift */; };
 		9FF22DDE1F6E70A1003E7C1C /* MyStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF22DDD1F6E70A1003E7C1C /* MyStyleUITests.swift */; };
+		B850A9381F7B713A00C9A583 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850A9371F7B713A00C9A583 /* HomePageViewModel.swift */; };
+		B850A93A1F7B714B00C9A583 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850A9391F7B714B00C9A583 /* HomeDataModel.swift */; };
 		B8EA9F391F7A63E200E8AA64 /* WebServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EA9F381F7A63E200E8AA64 /* WebServiceCall.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		9FF22DD91F6E70A1003E7C1C /* MyStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FF22DDD1F6E70A1003E7C1C /* MyStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStyleUITests.swift; sourceTree = "<group>"; };
 		9FF22DDF1F6E70A1003E7C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B850A9371F7B713A00C9A583 /* HomePageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		B850A9391F7B714B00C9A583 /* HomeDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
 		B8EA9F381F7A63E200E8AA64 /* WebServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,10 +103,10 @@
 		9FF22DBC1F6E70A0003E7C1C /* MyStyle */ = {
 			isa = PBXGroup;
 			children = (
+				B850A9361F7B70C900C9A583 /* HomePage */,
 				B8EA9F371F7A632F00E8AA64 /* WebServices */,
 				B8EA9F361F7A631600E8AA64 /* SupportingFiles */,
 				9FF22DBD1F6E70A0003E7C1C /* AppDelegate.swift */,
-				9FF22DBF1F6E70A0003E7C1C /* ViewController.swift */,
 				9FF22DC11F6E70A0003E7C1C /* Main.storyboard */,
 			);
 			path = MyStyle;
@@ -124,6 +128,16 @@
 				9FF22DDF1F6E70A1003E7C1C /* Info.plist */,
 			);
 			path = MyStyleUITests;
+			sourceTree = "<group>";
+		};
+		B850A9361F7B70C900C9A583 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				9FF22DBF1F6E70A0003E7C1C /* ViewController.swift */,
+				B850A9371F7B713A00C9A583 /* HomePageViewModel.swift */,
+				B850A9391F7B714B00C9A583 /* HomeDataModel.swift */,
+			);
+			name = HomePage;
 			sourceTree = "<group>";
 		};
 		B8EA9F361F7A631600E8AA64 /* SupportingFiles */ = {
@@ -281,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B850A9381F7B713A00C9A583 /* HomePageViewModel.swift in Sources */,
+				B850A93A1F7B714B00C9A583 /* HomeDataModel.swift in Sources */,
 				9FF22DC01F6E70A0003E7C1C /* ViewController.swift in Sources */,
 				9FF22DBE1F6E70A0003E7C1C /* AppDelegate.swift in Sources */,
 				B8EA9F391F7A63E200E8AA64 /* WebServiceCall.swift in Sources */,
